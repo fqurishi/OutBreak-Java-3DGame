@@ -1,2 +1,5 @@
 javac myGameEngine\*.java
-javac a2\*.java
+javac network\*.java
+javac Dialogs\*.java
+javac game\*.java
+PAUSE

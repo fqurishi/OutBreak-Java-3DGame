@@ -1,1 +1,2 @@
-java -Dsun.java2d.d3d=false -Dsun.java2d.uiScale=1 a2.MyGame
+java -Dsun.java2d.d3d=false -Dsun.java2d.uiScale=1 game.GameStarter
+PAUSE

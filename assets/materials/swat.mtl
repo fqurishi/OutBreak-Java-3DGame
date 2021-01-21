@@ -1,0 +1,44 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl Ch35_body
+Ns 128
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1001_Normal.png
+map_Kd D:\\eclipse-workspace\\165a3\\src\\assets\\textures\\swat1.png
+map_Ks D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1001_Specular.png
+map_Ns D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1001_Glossiness.png
+
+newmtl Ch35_body1
+Ns 128
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1002_Normal.png
+map_Kd D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1002_Diffuse.png
+map_Ks D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1002_Specular.png
+map_Ns D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1002_Glossiness.png
+
+newmtl Ch35_body2
+Ns 128
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1003_Normal.png
+map_Kd D:\\eclipse-workspace\\165a3\\src\\assets\\textures\\zombieUV.png
+map_Ks D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1003_Specular.png
+map_Ns D:\\home\\app\\mixamo-mini\\tmp\\skins_60a76c5f-cb55-4266-a5ce-abef2dcceec7.fbm\\Ch35_1003_Glossiness.png

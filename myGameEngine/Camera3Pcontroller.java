@@ -23,12 +23,16 @@ public class Camera3Pcontroller {
 		 cameraN = camN;
 		 target = targ;
 		 cameraAzimuth = 225.0f;// start from BEHIND and ABOVE the target
-		 cameraElevation = 20.0f;// elevation is in degrees
-		 radias = 2.0f;
+		 cameraElevation = 25.0f;// elevation is in degrees
+		 radias = 2.5f;
 		 worldUpVec = Vector3f.createFrom(0.0f, 1.0f, 0.0f);
 		 setupInput(im, controllerName);
 		 updateCameraPosition();
 	 
+	 }
+	 
+	 public void updateCameraOnDeath(SceneNode targ) {
+		 target = targ;
 	 }
 	 
 	// Updates camera position: computes azimuth, elevation, and distance
@@ -41,11 +45,14 @@ public class Camera3Pcontroller {
 		 double x = radias * Math.cos(phi) * Math.sin(theta);
 		 double y = radias * Math.sin(phi);
 		 double z = radias * Math.cos(phi) * Math.cos(theta);
+		 targetPos = target.getWorldPosition();
+		 
 		 cameraN.setLocalPosition(Vector3f.createFrom
-				 ((float)x, (float)y, (float)z).add(target.getWorldPosition()));
+				 ((float)x, (float)y, (float)z).add(targetPos));
 		 cameraN.setLocalRotation(
 				 (cameraN.getLocalRotation()).add(target.getLocalRotation()));
 		 cameraN.lookAt(target, worldUpVec);   
+		
 	 }
 	 
 	 private void setupInput(InputManager im, String cn)
@@ -113,7 +120,7 @@ public class Camera3Pcontroller {
 	public void OrbitAroundL()
 	{ 
 		float rotAmount;
-		rotAmount=1.0f; 
+		rotAmount=1.5f; 
 		cameraAzimuth += rotAmount;
 		cameraAzimuth = cameraAzimuth % 360;
 		updateCameraPosition();
@@ -121,7 +128,7 @@ public class Camera3Pcontroller {
 	public void OrbitAroundR()
 	{
 		float rotAmount;
-		rotAmount=-1.0f; 
+		rotAmount=-1.5f; 
 		cameraAzimuth += rotAmount;
 		cameraAzimuth = cameraAzimuth % 360;
 		updateCameraPosition();
@@ -220,6 +227,10 @@ public class Camera3Pcontroller {
 			 }
 		 //  similar for OrbitElevationAction, OrbitAroundAction 
 		
+	}
+	
+	public float getAzimuth() {
+		return cameraAzimuth;
 	}
 
 	
