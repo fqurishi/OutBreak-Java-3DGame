@@ -30,7 +30,7 @@ C:\javagaming\joml\joml-jdk8-1.9.25.jar
 C:\javagaming\jinput\jinput.jar
 C:\javagaming\jogl\joal.jar
 C:\javagaming\vecmath\vecmath.jar
-C:\javagaming/jogl/jogamp-all-platforms/jar/joal.jar
+C:\javagaming\jogl\jogamp-all-platforms\jar\joal.jar
 C:\javagaming\jbullet\jbullet.jar
 C:\javagaming\graphicslib3D\graphicslib3D.jar
 
