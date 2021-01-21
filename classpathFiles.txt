@@ -1,0 +1,45 @@
+The zip file "javagaming" contains everything needed to install the "javagaming" library.
+In addition to this ReadMe file, it contains the following:
+
+
+TO INSTALL THE JAVAGAMING LIBRARY:
+
+Only works for Java 8
+
+Before trying to install the "javagaming" libraries, you'll need to MAKE SURE
+that you have properly and completely installed a JAVA JDK on your machine.
+"JDK" means "development kit".  Open a command window and type:  java -version
+If your version is only a JRE, then you'll need to install a JDK before proceeding.
+
+Uncompress either javagaming.zip depending on your version
+of Java.  Regardless of which one you uncompress, after uncompressing there is a
+folder inside named "javagaming".  That is the folder that you will use.
+
+1) Place the "javagaming" folder in the location where you wish to install the
+   library.  These instructions assume you have placed it at the root of "C:".
+   The path files described below also assume this - i.e., that you have created a
+   folder called "C:\javagaming".
+
+2) Add the elements given here
+
+.
+C:\javagaming\jogl\jogl-all.jar
+C:\javagaming\jogl\gluegen-rt.jar
+C:\javagaming\rage165\ray.jar
+C:\javagaming\joml\joml-jdk8-1.9.25.jar
+C:\javagaming\jinput\jinput.jar
+C:\javagaming\jogl\joal.jar
+C:\javagaming\vecmath\vecmath.jar
+C:\javagaming/jogl/jogamp-all-platforms/jar/joal.jar
+C:\javagaming\jbullet\jbullet.jar
+C:\javagaming\graphicslib3D\graphicslib3D.jar
+
+to the CLASSPATH variable.
+
+
+3) Add the elements given here 
+
+%JAVA_HOME%\bin
+C:\javagaming\jinput\lib
+
+to the PATH variable.
